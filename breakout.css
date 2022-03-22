@@ -1,0 +1,28 @@
+
+#game
+{
+    background: bisque;
+    border: 5px  groove black;
+    border-radius: 2%;
+}
+
+.containe{
+    display: flex;
+    justify-content: space-around; 
+}
+
+#result{
+    border: 1px groove red;
+    border-radius: 2%;
+    display: block;
+    box-shadow: blanchedalmond;
+    position: relative;
+}
+
+#score,#life,#text{
+    background: rosybrown;
+    font-family:Lobster,sans-serif;
+    width: max-content;
+    height: 100px;
+position: absolute;
+}
